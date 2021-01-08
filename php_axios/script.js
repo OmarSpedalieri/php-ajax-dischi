@@ -5,7 +5,7 @@ var app =  new Vue({
         data: {
             discs: [],
         },
-        methods: {},
+        
         mounted: function (){
 
             axios.get("data.php").then((risposta) => {

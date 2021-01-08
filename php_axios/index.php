@@ -28,7 +28,7 @@
 
         <div class="container">
 
-            <div class="disc" v-for ="album in database">
+            <div class="disc" v-for ="album in discs">
             
                     <img class="cover" :src="album.poster" alt="cover"> 
                     <h2>  {{album.title}} </h2>
